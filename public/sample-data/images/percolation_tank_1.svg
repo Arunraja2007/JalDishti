@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="percSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#bae6fd"/><stop offset="100%" stop-color="#e0f2fe"/></linearGradient>
+    <linearGradient id="deepAquifer" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#3b82f6"/><stop offset="100%" stop-color="#1e3a8a"/></linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#percSky)"/>
+  
+  <!-- Surface Tank -->
+  <polygon points="0,120 600,120 600,240 0,240" fill="#cbd5e1"/>
+  <polygon points="80,140 520,140 480,220 120,220" fill="#0284c7"/>
+  
+  <!-- Cross section underground strata -->
+  <rect x="0" y="240" width="600" height="40" fill="#78350f"/> <!-- Topsoil / Silt -->
+  <rect x="0" y="280" width="600" height="50" fill="#475569"/> <!-- Impervious Clay / Hard basalt -->
+  <rect x="0" y="330" width="600" height="70" fill="url(#deepAquifer)"/> <!-- Unconfined Aquifer -->
+  
+  <!-- Recharge Injection Shaft (Tube Well Shaft) -->
+  <rect x="285" y="160" width="30" height="200" fill="#94a3b8" stroke="#0f172a" stroke-width="2"/>
+  <line x1="285" y1="200" x2="315" y2="200" stroke="#0f172a" stroke-width="2"/>
+  <line x1="285" y1="240" x2="315" y2="240" stroke="#0f172a" stroke-width="2"/>
+  <line x1="285" y1="280" x2="315" y2="280" stroke="#0f172a" stroke-width="2"/>
+  <!-- Filter Gravel Pack -->
+  <rect x="270" y="200" width="60" height="150" fill="#e2e8f0" opacity="0.3" stroke="#94a3b8" stroke-dasharray="4,4"/>
+  
+  <!-- Direct Water Recharge Arrows -->
+  <path d="M 300 180 L 300 370" stroke="#38bdf8" stroke-width="4" stroke-dasharray="8,4"/>
+  <polygon points="300,380 292,365 308,365" fill="#38bdf8"/>
+  <text x="340" y="360" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="bold">Deep Aquifer Recharge +4.1m</text>
+  
+  <!-- Geotag HUD Overlay -->
+  <rect x="20" y="20" width="250" height="64" rx="6" fill="#0f172a" fill-opacity="0.75"/>
+  <text x="32" y="42" fill="#38bdf8" font-family="monospace" font-size="12" font-weight="bold">GEO-OBS: PT-06 (23.864°N, 73.182°E)</text>
+  <text x="32" y="60" fill="#86efac" font-family="sans-serif" font-size="11">Percolation Tank + Recharge Shaft • Sabarmati</text>
+  <text x="32" y="74" fill="#cbd5e1" font-family="sans-serif" font-size="10">Shaft Depth: 18m | Storage: 85,000 m³</text>
+</svg>

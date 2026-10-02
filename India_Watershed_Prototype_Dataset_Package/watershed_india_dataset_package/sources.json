@@ -1,0 +1,23 @@
+{
+  "watershed_boundaries": {
+    "official_catalog": "https://www.data.gov.in/catalog/hydrological-boundaries",
+    "dataset": "Shape of Watershed Boundaries of India",
+    "format": "ZIP: SHP/SHX/DBF/PRJ/etc."
+  },
+  "nrsc_open_data": {
+    "url": "https://bhuvan-app3.nrsc.gov.in/data/download/",
+    "products": [
+      "CartoDEM-1 arc second",
+      "Resourcesat AWiFS",
+      "Resourcesat LISS-III"
+    ]
+  },
+  "bhuvan_store": {
+    "url": "https://bhuvan-app1.nrsc.gov.in/2dresources/bhuvanstore2.php",
+    "lulc": "1:250000, including 2022-23",
+    "lulc_wms": "https://bhuvan-ras2.nrsc.gov.in/cgi-bin/LULC250K.exe"
+  },
+  "bhuvan_thematic": {
+    "url": "https://bhuvan-app1.nrsc.gov.in/thematic/thematic/usertasks/download1/tooldown1.php"
+  }
+}

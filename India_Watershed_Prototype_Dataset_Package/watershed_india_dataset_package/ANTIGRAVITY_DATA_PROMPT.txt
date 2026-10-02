@@ -1,0 +1,31 @@
+You are preparing the data layer for SIH Problem Statement 26015.
+
+Use ONLY official/public sources listed below:
+1. India watershed boundaries:
+   https://www.data.gov.in/catalog/hydrological-boundaries
+2. NRSC/Bhuvan Open Data Archive:
+   https://bhuvan-app3.nrsc.gov.in/data/download/
+3. Bhuvan Thematic Store:
+   https://bhuvan-app1.nrsc.gov.in/2dresources/bhuvanstore2.php
+4. Bhuvan Thematic Services:
+   https://bhuvan-app1.nrsc.gov.in/thematic/thematic/usertasks/download1/tooldown1.php
+
+Create this local structure:
+data/watershed_boundary
+data/dem
+data/satellite
+data/lulc
+data/waterbodies
+data/geotagged_images
+data/metadata
+
+Requirements:
+- Do not invent download URLs.
+- Do not scrape protected/private data.
+- If a Bhuvan product requires login, stop and report that requirement rather than bypassing it.
+- For watershed boundaries, obtain the official India watershed boundary ZIP and extract it.
+- For DEM and satellite imagery, support downloading selected tiles/AOI rather than attempting to download the entire India raster archive.
+- For LULC and waterbody layers, support official Bhuvan WMS/WMTS consumption and local caching where legally/publicly available.
+- Keep a metadata.json containing source, product, year, resolution, CRS, download date and license/usage note.
+- Validate all downloaded GIS files and show their CRS and bounding box.
+- The application must be able to display watershed boundaries, LULC, DEM-derived slope, water bodies and geo-tagged field images on an interactive India map.

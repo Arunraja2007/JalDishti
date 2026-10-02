@@ -1,0 +1,177 @@
+{
+  "type": "FeatureCollection",
+  "name": "NRSC_LULC_Sample_Zonation",
+  "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "LULC-01",
+      "properties": {
+        "class_code": 1,
+        "class_name": "Deciduous / Mixed Forest",
+        "category": "Forest",
+        "color": "#1b4332",
+        "watershed_id": "WS-MH-GOD-01",
+        "area_ha": 1940
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [74.32, 19.01],
+            [74.38, 19.06],
+            [74.45, 19.08],
+            [74.40, 19.03],
+            [74.34, 18.98],
+            [74.32, 19.01]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LULC-02",
+      "properties": {
+        "class_code": 2,
+        "class_name": "Agricultural Cropland (Kharif + Rabi)",
+        "category": "Agriculture",
+        "color": "#40916c",
+        "watershed_id": "WS-MH-GOD-01",
+        "area_ha": 4560
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [74.38, 19.06],
+            [74.52, 19.04],
+            [74.55, 18.95],
+            [74.48, 18.90],
+            [74.40, 19.03],
+            [74.38, 19.06]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LULC-03",
+      "properties": {
+        "class_code": 3,
+        "class_name": "Scrubland / Grassland",
+        "category": "Grassland",
+        "color": "#86efac",
+        "watershed_id": "WS-MH-GOD-01",
+        "area_ha": 967
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [74.48, 18.90],
+            [74.56, 18.94],
+            [74.54, 18.88],
+            [74.44, 18.88],
+            [74.48, 18.90]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LULC-04",
+      "properties": {
+        "class_code": 4,
+        "class_name": "Surface Water Body / Reservoir",
+        "category": "Water",
+        "color": "#0284c7",
+        "watershed_id": "WS-MH-GOD-01",
+        "area_ha": 552
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [74.41, 18.99],
+            [74.46, 19.01],
+            [74.47, 18.97],
+            [74.42, 18.96],
+            [74.41, 18.99]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LULC-05",
+      "properties": {
+        "class_code": 5,
+        "class_name": "Rural Settlement / Built-up",
+        "category": "Built-up",
+        "color": "#64748b",
+        "watershed_id": "WS-MH-GOD-01",
+        "area_ha": 310
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [74.43, 19.02],
+            [74.45, 19.03],
+            [74.46, 19.01],
+            [74.44, 19.00],
+            [74.43, 19.02]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LULC-06",
+      "properties": {
+        "class_code": 6,
+        "class_name": "Gullied / Ravinous Barren Land",
+        "category": "Barren Land",
+        "color": "#b45309",
+        "watershed_id": "WS-RJ-CHM-07",
+        "area_ha": 4570
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [75.80, 24.85],
+            [76.05, 24.95],
+            [76.20, 24.75],
+            [75.95, 24.65],
+            [75.80, 24.85]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LULC-07",
+      "properties": {
+        "class_code": 1,
+        "class_name": "Dense Satpura Canopy Forest",
+        "category": "Forest",
+        "color": "#1b4332",
+        "watershed_id": "WS-MP-NAR-05",
+        "area_ha": 24020
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [77.70, 22.65],
+            [78.10, 22.75],
+            [78.30, 22.50],
+            [77.90, 22.25],
+            [77.70, 22.65]
+          ]
+        ]
+      }
+    }
+  ]
+}

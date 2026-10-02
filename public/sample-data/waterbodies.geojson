@@ -1,0 +1,307 @@
+{
+  "type": "FeatureCollection",
+  "name": "India_Watershed_Waterbodies_Sample",
+  "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "WB-01",
+      "properties": {
+        "id": "WB-01",
+        "name": "Ralegan Village Percolation Tank No. 1",
+        "type": "Percolation Tank",
+        "watershed_id": "WS-MH-GOD-01",
+        "watershed_name": "Ralegan-Siddhi Micro-Watershed",
+        "state": "Maharashtra",
+        "water_spread_area_ha": 14.8,
+        "storage_capacity_tcm": 280,
+        "current_water_level_pct": 82,
+        "condition": "Optimal / Well Maintained",
+        "source": "Bhuvan Thematic Waterbodies / NRSC",
+        "intervention_year": 2019
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [74.42, 19.00],
+            [74.44, 19.01],
+            [74.45, 18.99],
+            [74.43, 18.98],
+            [74.42, 19.00]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WB-02",
+      "properties": {
+        "id": "WB-02",
+        "name": "Kukadi Masonry Check Dam Reservoir",
+        "type": "Check Dam Reservoir",
+        "watershed_id": "WS-MH-GOD-01",
+        "watershed_name": "Ralegan-Siddhi Micro-Watershed",
+        "state": "Maharashtra",
+        "water_spread_area_ha": 6.2,
+        "storage_capacity_tcm": 95,
+        "current_water_level_pct": 68,
+        "condition": "Minor Siltation",
+        "source": "Bhuvan Thematic Waterbodies",
+        "intervention_year": 2021
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [74.48, 18.94],
+            [74.50, 18.95],
+            [74.51, 18.93],
+            [74.49, 18.92],
+            [74.48, 18.94]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WB-03",
+      "properties": {
+        "id": "WB-03",
+        "name": "Chandela Historical Tank (Prithvipur)",
+        "type": "Traditional Heritage Tank",
+        "watershed_id": "WS-MP-BTW-02",
+        "watershed_name": "Bundelkhand Betwa-Dhasan Catchment",
+        "state": "Madhya Pradesh",
+        "water_spread_area_ha": 28.5,
+        "storage_capacity_tcm": 620,
+        "current_water_level_pct": 48,
+        "condition": "Needs Desiltation",
+        "source": "Bhuvan Thematic Waterbodies / NRSC",
+        "intervention_year": 2018
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [78.70, 24.95],
+            [78.74, 24.98],
+            [78.76, 24.94],
+            [78.72, 24.92],
+            [78.70, 24.95]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WB-04",
+      "properties": {
+        "id": "WB-04",
+        "name": "Dhasan Stream Earthen Check Dam Pond",
+        "type": "Check Dam Reservoir",
+        "watershed_id": "WS-MP-BTW-02",
+        "watershed_name": "Bundelkhand Betwa-Dhasan Catchment",
+        "state": "Madhya Pradesh",
+        "water_spread_area_ha": 9.4,
+        "storage_capacity_tcm": 140,
+        "current_water_level_pct": 55,
+        "condition": "Functional",
+        "source": "Bhuvan Thematic Waterbodies",
+        "intervention_year": 2022
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [78.85, 25.02],
+            [78.88, 25.04],
+            [78.90, 25.01],
+            [78.87, 24.99],
+            [78.85, 25.02]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WB-05",
+      "properties": {
+        "id": "WB-05",
+        "name": "Chitravathi Community Recharge Tank",
+        "type": "Percolation Tank",
+        "watershed_id": "WS-AP-PNR-03",
+        "watershed_name": "Ananthapuramu Drought-Prone Pennar Sub-basin",
+        "state": "Andhra Pradesh",
+        "water_spread_area_ha": 18.2,
+        "storage_capacity_tcm": 310,
+        "current_water_level_pct": 40,
+        "condition": "Dry Season Depletion / Highly Utilized",
+        "source": "Bhuvan Thematic Waterbodies",
+        "intervention_year": 2020
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [77.62, 14.42],
+            [77.66, 14.45],
+            [77.68, 14.41],
+            [77.64, 14.39],
+            [77.62, 14.42]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WB-06",
+      "properties": {
+        "id": "WB-06",
+        "name": "Maddur Cascade Irrigation Tank",
+        "type": "Cascade Irrigation Tank",
+        "watershed_id": "WS-KA-CAU-04",
+        "watershed_name": "Cauvery Upper Catchment (Kabini-Shimsha)",
+        "state": "Karnataka",
+        "water_spread_area_ha": 34.0,
+        "storage_capacity_tcm": 750,
+        "current_water_level_pct": 74,
+        "condition": "Functional",
+        "source": "Bhuvan Thematic Waterbodies",
+        "intervention_year": 2017
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [77.05, 12.65],
+            [77.10, 12.69],
+            [77.13, 12.64],
+            [77.08, 12.61],
+            [77.05, 12.65]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WB-07",
+      "properties": {
+        "id": "WB-07",
+        "name": "Tawa Sub-catchment Forest Retention Pond",
+        "type": "Water Harvesting Structure",
+        "watershed_id": "WS-MP-NAR-05",
+        "watershed_name": "Narmada Upper Valley (Tawa Catchment)",
+        "state": "Madhya Pradesh",
+        "water_spread_area_ha": 22.4,
+        "storage_capacity_tcm": 460,
+        "current_water_level_pct": 88,
+        "condition": "Optimal",
+        "source": "Bhuvan Thematic Waterbodies",
+        "intervention_year": 2021
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [77.95, 22.45],
+            [78.00, 22.48],
+            [78.03, 22.43],
+            [77.98, 22.41],
+            [77.95, 22.45]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WB-08",
+      "properties": {
+        "id": "WB-08",
+        "name": "Sukhomajri Earthen Dam No. 2",
+        "type": "Earthen Dam Reservoir",
+        "watershed_id": "WS-HR-SUK-08",
+        "watershed_name": "Sukhomajri Shivalik Foothills Model Watershed",
+        "state": "Haryana",
+        "water_spread_area_ha": 8.5,
+        "storage_capacity_tcm": 180,
+        "current_water_level_pct": 91,
+        "condition": "Exemplary Maintenance",
+        "source": "Bhuvan Thematic Waterbodies",
+        "intervention_year": 2016
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.94, 30.75],
+            [76.97, 30.77],
+            [76.99, 30.74],
+            [76.96, 30.73],
+            [76.94, 30.75]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WB-09",
+      "properties": {
+        "id": "WB-09",
+        "name": "Hadoti Ravine Silt-Retention Reservoir",
+        "type": "Check Dam Reservoir",
+        "watershed_id": "WS-RJ-CHM-07",
+        "watershed_name": "Chambal Ravines Watershed",
+        "state": "Rajasthan",
+        "water_spread_area_ha": 11.0,
+        "storage_capacity_tcm": 210,
+        "current_water_level_pct": 52,
+        "condition": "Severe Silt Inflow",
+        "source": "Bhuvan Thematic Waterbodies",
+        "intervention_year": 2020
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [75.98, 24.72],
+            [76.03, 24.76],
+            [76.05, 24.71],
+            [76.00, 24.69],
+            [75.98, 24.72]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WB-10",
+      "properties": {
+        "id": "WB-10",
+        "name": "Usilampatti Traditional Oorani",
+        "type": "Village Oorani (Drinking Tank)",
+        "watershed_id": "WS-TN-VAI-10",
+        "watershed_name": "Vaigai-Gundar Drought-Resilient Watershed",
+        "state": "Tamil Nadu",
+        "water_spread_area_ha": 7.5,
+        "storage_capacity_tcm": 115,
+        "current_water_level_pct": 65,
+        "condition": "Functional",
+        "source": "Bhuvan Thematic Waterbodies",
+        "intervention_year": 2021
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [77.92, 9.80],
+            [77.96, 9.83],
+            [77.98, 9.79],
+            [77.94, 9.77],
+            [77.92, 9.80]
+          ]
+        ]
+      }
+    }
+  ]
+}

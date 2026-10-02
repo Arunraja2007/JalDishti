@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bundSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#bae6fd"/><stop offset="100%" stop-color="#f0fdf4"/></linearGradient>
+    <linearGradient id="soilSlope" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#a3e635"/><stop offset="100%" stop-color="#4d7c0f"/></linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bundSky)"/>
+  <!-- Terraced slope -->
+  <polygon points="0,100 600,100 600,400 0,400" fill="url(#soilSlope)"/>
+  <!-- Continuous Contour Bunds (Earthen embankments with grass vegetative stabilization) -->
+  <path d="M 0 160 Q 300 200 600 160" stroke="#78350f" stroke-width="12" fill="none"/>
+  <path d="M 0 156 Q 300 196 600 156" stroke="#22c55e" stroke-width="4" fill="none"/> <!-- Vetiver grass on bund top -->
+  <path d="M 0 240 Q 300 280 600 240" stroke="#78350f" stroke-width="14" fill="none"/>
+  <path d="M 0 236 Q 300 276 600 236" stroke="#22c55e" stroke-width="5" fill="none"/>
+  <path d="M 0 330 Q 300 370 600 330" stroke="#78350f" stroke-width="16" fill="none"/>
+  <path d="M 0 325 Q 300 365 600 325" stroke="#22c55e" stroke-width="6" fill="none"/>
+  <!-- Moisture retention zone behind bunds -->
+  <path d="M 20 170 Q 300 210 580 170" stroke="#0284c7" stroke-width="3" stroke-dasharray="15,10" fill="none" opacity="0.6"/>
+  <path d="M 20 252 Q 300 292 580 252" stroke="#0284c7" stroke-width="3.5" stroke-dasharray="15,10" fill="none" opacity="0.6"/>
+  
+  <!-- Geotag HUD Overlay -->
+  <rect x="20" y="20" width="240" height="64" rx="6" fill="#0f172a" fill-opacity="0.75"/>
+  <text x="32" y="42" fill="#38bdf8" font-family="monospace" font-size="12" font-weight="bold">GEO-OBS: BND-07 (22.482°N, 77.925°E)</text>
+  <text x="32" y="60" fill="#86efac" font-family="sans-serif" font-size="11">Continuous Contour Bunding • Narmada</text>
+  <text x="32" y="74" fill="#cbd5e1" font-family="sans-serif" font-size="10">Length: 1,800m | Slope Stabilized: 12%</text>
+</svg>

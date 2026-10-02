@@ -1,0 +1,280 @@
+/* ==========================================================================
+   Map Styling - Leaflet Customizations for JalDrishti
+   ========================================================================== */
+
+.map-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: #e5edf4;
+  z-index: 1;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  font-family: var(--font-sans);
+  background-color: #e2e8f0;
+}
+
+/* Custom Zoom Control Styling */
+.leaflet-bar {
+  border: 1px solid var(--slate-200) !important;
+  border-radius: var(--radius-md) !important;
+  box-shadow: var(--shadow-md) !important;
+  overflow: hidden;
+}
+
+.leaflet-bar a {
+  background-color: var(--white) !important;
+  color: var(--slate-700) !important;
+  border-bottom: 1px solid var(--slate-200) !important;
+  width: 34px !important;
+  height: 34px !important;
+  line-height: 34px !important;
+  transition: all var(--transition-fast);
+}
+
+.leaflet-bar a:hover {
+  background-color: var(--green-50) !important;
+  color: var(--green-700) !important;
+}
+
+/* Custom Tooltip Styling */
+.custom-map-tooltip {
+  background-color: var(--slate-900) !important;
+  color: var(--white) !important;
+  border: 1px solid var(--slate-700) !important;
+  border-radius: var(--radius-sm) !important;
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px 8px;
+  box-shadow: var(--shadow-md);
+}
+
+.custom-map-tooltip::before {
+  border-top-color: var(--slate-900) !important;
+}
+
+/* Custom Popup Styling */
+.leaflet-popup-content-wrapper {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-xl);
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid var(--slate-200);
+}
+
+.leaflet-popup-content {
+  margin: 0 !important;
+  line-height: 1.5;
+}
+
+.leaflet-popup-tip {
+  background: var(--white);
+}
+
+/* Map Floating HUD Overlays */
+.map-hud-overlay {
+  position: absolute;
+  z-index: 1000;
+  pointer-events: auto;
+}
+
+.map-hud-top-left {
+  top: 16px;
+  left: 60px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.map-hud-top-right {
+  top: 16px;
+  right: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.map-hud-bottom-left {
+  bottom: 24px;
+  left: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.map-hud-bottom-right {
+  bottom: 24px;
+  right: 16px;
+  display: flex;
+  gap: 8px;
+}
+
+/* Map Search Bar */
+.map-search-container {
+  display: flex;
+  align-items: center;
+  background: var(--white);
+  border: 1px solid var(--slate-200);
+  border-radius: var(--radius-md);
+  padding: 6px 12px;
+  box-shadow: var(--shadow-md);
+  width: 320px;
+  gap: 8px;
+}
+
+.map-search-input {
+  border: none;
+  outline: none;
+  font-size: 13px;
+  color: var(--slate-800);
+  width: 100%;
+  font-family: var(--font-sans);
+}
+
+.map-search-input::placeholder {
+  color: var(--slate-400);
+}
+
+/* Map Action Buttons */
+.map-tool-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background: var(--white);
+  color: var(--slate-700);
+  border: 1px solid var(--slate-200);
+  border-radius: var(--radius-md);
+  padding: 8px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  box-shadow: var(--shadow-md);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.map-tool-btn:hover {
+  background: var(--green-50);
+  color: var(--green-800);
+  border-color: var(--green-300);
+}
+
+.map-tool-btn.active {
+  background: var(--green-700);
+  color: var(--white);
+  border-color: var(--green-800);
+}
+
+.map-tool-btn.water-active {
+  background: var(--blue-700);
+  color: var(--white);
+  border-color: var(--blue-800);
+}
+
+/* Custom Marker Pins */
+.custom-marker-pin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.custom-marker-pin:hover {
+  transform: scale(1.18);
+  z-index: 1000 !important;
+}
+
+.pin-checkdam {
+  background: linear-gradient(135deg, #0284c7, #0f4c81);
+  color: #ffffff;
+}
+
+.pin-farmpond {
+  background: linear-gradient(135deg, #0ea5e9, #0284c7);
+  color: #ffffff;
+}
+
+.pin-canal {
+  background: linear-gradient(135deg, #38bdf8, #0369a1);
+  color: #ffffff;
+}
+
+.pin-erosion {
+  background: linear-gradient(135deg, #ea580c, #b45309);
+  color: #ffffff;
+}
+
+.pin-vegetation {
+  background: linear-gradient(135deg, #22c55e, #1b4332);
+  color: #ffffff;
+}
+
+.pin-waterbody {
+  background: linear-gradient(135deg, #06b6d4, #0284c7);
+  color: #ffffff;
+}
+
+.pin-bund {
+  background: linear-gradient(135deg, #40916c, #1b4332);
+  color: #ffffff;
+}
+
+/* Layer Legend Panel */
+.map-legend-card {
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(8px);
+  border: 1px solid var(--slate-200);
+  border-radius: var(--radius-lg);
+  padding: 12px 14px;
+  box-shadow: var(--shadow-lg);
+  font-size: 12px;
+  width: 240px;
+}
+
+.map-legend-title {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--slate-600);
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 0;
+  cursor: pointer;
+  user-select: none;
+}
+
+.legend-item-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--slate-700);
+  font-weight: 500;
+}
+
+.legend-color-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 4px;
+  display: inline-block;
+  flex-shrink: 0;
+}

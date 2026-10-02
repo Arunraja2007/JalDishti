@@ -1,0 +1,317 @@
+{
+  "type": "FeatureCollection",
+  "name": "GeoCoded_Field_Observations_DRISHTI_Sample",
+  "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "GEO-OBS-01",
+      "properties": {
+        "id": "GEO-OBS-01",
+        "title": "Masonry Check Dam CD-03",
+        "category": "Check Dam",
+        "watershed_id": "WS-MH-GOD-01",
+        "watershed": "Ralegan-Siddhi Upper Godavari Micro-Watershed",
+        "state": "Maharashtra",
+        "latitude": 19.0124,
+        "longitude": 74.4532,
+        "elevation_m": 612,
+        "date": "2024-03-14",
+        "surveyor": "Er. Suresh Patil (WDT Engineer)",
+        "agency": "DoLR / PMKSY-WDC Batch-VII",
+        "structure_id": "MH-PAR-CD-003",
+        "dimensions": "Length: 18.5m | Height: 2.2m | Crest Width: 1.2m",
+        "storage_capacity_cum": 12400,
+        "condition": "Functional / Minor Desilting Required",
+        "impact_status": "High Groundwater Recharge (Well W-04 level +2.4m)",
+        "description": "Masonry check dam constructed across 2nd order stream. Silt accumulation at 22% of dead storage. Upstream apron intact, side training walls in good structural condition.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Check_dam_in_Rajasthan%2C_India.jpg/800px-Check_dam_in_Rajasthan%2C_India.jpg",
+        "verified": true,
+        "verification_agency": "NRSC / SLNA Field Audit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [74.4532, 19.0124]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-OBS-02",
+      "properties": {
+        "id": "GEO-OBS-02",
+        "title": "Community Farm Pond FP-12",
+        "category": "Farm Pond",
+        "watershed_id": "WS-AP-PNR-03",
+        "watershed": "Ananthapuramu Drought-Prone Pennar Sub-basin",
+        "state": "Andhra Pradesh",
+        "latitude": 14.4821,
+        "longitude": 77.6105,
+        "elevation_m": 385,
+        "date": "2024-04-02",
+        "surveyor": "K. Venkatesh (Watershed Secretary)",
+        "agency": "DWMA Ananthapuramu",
+        "structure_id": "AP-ANP-FP-012",
+        "dimensions": "30m x 30m x 3m (Lined with 500 micron HDPE sheet)",
+        "storage_capacity_cum": 2700,
+        "condition": "Optimal / Retaining Water",
+        "impact_status": "Supported 4.5 acres of groundnut protective irrigation",
+        "description": "HDPE-lined individual farm pond filled via runoff inlet silt-trap. Farmer reports doubling of crop yield with two critical irrigations during dry spell.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Farm_pond_in_Andhra_Pradesh.jpg/800px-Farm_pond_in_Andhra_Pradesh.jpg",
+        "verified": true,
+        "verification_agency": "AP SLNA Verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [77.6105, 14.4821]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-OBS-03",
+      "properties": {
+        "id": "GEO-OBS-03",
+        "title": "Active Gully Erosion Threat G-08",
+        "category": "Soil Erosion",
+        "watershed_id": "WS-RJ-CHM-07",
+        "watershed": "Chambal Ravines Watershed (Hadoti Plateau)",
+        "state": "Rajasthan",
+        "latitude": 24.7892,
+        "longitude": 76.0145,
+        "elevation_m": 298,
+        "date": "2024-02-28",
+        "surveyor": "R. K. Sharma (GIS Analyst)",
+        "agency": "Rajasthan Watershed Development Dept.",
+        "structure_id": "RJ-KOT-ERO-008",
+        "dimensions": "Gully Depth: 4.8m | Width: 6.2m | Progression: 1.8m/yr",
+        "storage_capacity_cum": 0,
+        "condition": "Severe Degradation / Urgent Intervention",
+        "impact_status": "Threatens adjoining 12 hectares fertile black cotton soil",
+        "description": "Headward progressing gully expanding towards village arable land. Immediate need for loose boulder check dams and bamboo vegetative palisades.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Ravine_erosion_India.jpg/800px-Ravine_erosion_India.jpg",
+        "verified": true,
+        "verification_agency": "District Watershed Unit Kota"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [76.0145, 24.7892]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-OBS-04",
+      "properties": {
+        "id": "GEO-OBS-04",
+        "title": "Lined Feeder Canal C-04",
+        "category": "Canal",
+        "watershed_id": "WS-KA-CAU-04",
+        "watershed": "Cauvery Upper Catchment (Kabini-Shimsha)",
+        "state": "Karnataka",
+        "latitude": 12.7214,
+        "longitude": 77.0854,
+        "elevation_m": 668,
+        "date": "2024-01-20",
+        "surveyor": "M. Gowda (Field Supervisor)",
+        "agency": "Karnataka Watershed Development Dept.",
+        "structure_id": "KA-MAN-CNL-004",
+        "dimensions": "Length: 420m | Bed Width: 0.8m | Discharge: 0.45 cumec",
+        "storage_capacity_cum": 850,
+        "condition": "Functional / Cleaned",
+        "impact_status": "Diverts surplus hill runoff to Maddur cascade tank",
+        "description": "Pre-cast concrete lined diversion canal preventing seepage loss and conveying high-intensity runoff directly into village percolation tank.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Irrigation_canal_Karnataka.jpg/800px-Irrigation_canal_Karnataka.jpg",
+        "verified": true,
+        "verification_agency": "Zilla Panchayat Mandya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [77.0854, 12.7214]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-OBS-05",
+      "properties": {
+        "id": "GEO-OBS-05",
+        "title": "Ridge Afforestation & Contour Bunding",
+        "category": "Vegetation",
+        "watershed_id": "WS-MH-GOD-01",
+        "watershed": "Ralegan-Siddhi Upper Godavari Micro-Watershed",
+        "state": "Maharashtra",
+        "latitude": 19.0450,
+        "longitude": 74.3980,
+        "elevation_m": 740,
+        "date": "2024-03-25",
+        "surveyor": "Anand Shinde (Social Forestry Officer)",
+        "agency": "Social Forestry Division Parner",
+        "structure_id": "MH-PAR-VEG-005",
+        "dimensions": "Area: 45 Hectares | 22,000 Saplings planted (Neem, Babul, Subabul)",
+        "storage_capacity_cum": 0,
+        "condition": "Lush Canopy / 88% Survival Rate",
+        "impact_status": "NDVI increased from 0.28 (2019) to 0.62 (2024)",
+        "description": "Continuous contour trenches (CCT) combined with native indigenous tree plantation on barren ridge slope. Zero runoff observed during light monsoon showers.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Contour_bunding_Maharashtra.jpg/800px-Contour_bunding_Maharashtra.jpg",
+        "verified": true,
+        "verification_agency": "Forest Dept / SLNA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [74.3980, 19.0450]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-OBS-06",
+      "properties": {
+        "id": "GEO-OBS-06",
+        "title": "Rejuvenated Chandela Percolation Tank",
+        "category": "Water Body",
+        "watershed_id": "WS-MP-BTW-02",
+        "watershed": "Bundelkhand Betwa-Dhasan Catchment",
+        "state": "Madhya Pradesh",
+        "latitude": 24.9450,
+        "longitude": 78.7320,
+        "elevation_m": 272,
+        "date": "2024-02-12",
+        "surveyor": "Er. Alok Mishra (Nodal Officer)",
+        "agency": "MP Rajya Jal Biradari / PMKSY",
+        "structure_id": "MP-TIK-WB-006",
+        "dimensions": "Water Spread: 28.5 Ha | Deepened by 1.8m",
+        "storage_capacity_cum": 620000,
+        "condition": "Fully Functional / Desilted",
+        "impact_status": "Recharged 48 open irrigation wells in 2km radius",
+        "description": "Traditional 800-year-old Bundelkhand tank desilted under Jal Shakti Abhiyan. Silt rich in nutrients distributed to 120 local farmer fields.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Chandela_tank_Bundelkhand.jpg/800px-Chandela_tank_Bundelkhand.jpg",
+        "verified": true,
+        "verification_agency": "Bundelkhand Development Authority"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.7320, 24.9450]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-OBS-07",
+      "properties": {
+        "id": "GEO-OBS-07",
+        "title": "Continuous Contour Bunding (CCB) Ridge Line",
+        "category": "Contour Bunding",
+        "watershed_id": "WS-MP-NAR-05",
+        "watershed": "Narmada Upper Valley (Tawa Catchment)",
+        "state": "Madhya Pradesh",
+        "latitude": 22.4820,
+        "longitude": 77.9250,
+        "elevation_m": 420,
+        "date": "2024-01-18",
+        "surveyor": "D. P. Verma (Agricultural Officer)",
+        "agency": "Hoshangabad Soil Conservation Unit",
+        "structure_id": "MP-HOS-BND-007",
+        "dimensions": "Cross section: 0.5 sq.m | Length: 1,800m across 12% slope",
+        "storage_capacity_cum": 3400,
+        "condition": "Stable / Grass Turf Established",
+        "impact_status": "Sheet erosion halted completely",
+        "description": "Earthen contour bunds with surplus stone weirs installed along micro-catchment ridge to slow runoff velocity before entering agricultural valley.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Earthen_bunding_Narmada.jpg/800px-Earthen_bunding_Narmada.jpg",
+        "verified": true,
+        "verification_agency": "SLNA Bhopal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [77.9250, 22.4820]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-OBS-08",
+      "properties": {
+        "id": "GEO-OBS-08",
+        "title": "Loose Boulder Gully Plug GP-14",
+        "category": "Gully Plug",
+        "watershed_id": "WS-HR-SUK-08",
+        "watershed": "Sukhomajri Shivalik Foothills Model Watershed",
+        "state": "Haryana",
+        "latitude": 30.7620,
+        "longitude": 76.9580,
+        "elevation_m": 560,
+        "date": "2024-03-08",
+        "surveyor": "H. S. Gill (Forest Ranger)",
+        "agency": "Haryana Forest & Watershed Dept.",
+        "structure_id": "HR-PAN-GP-014",
+        "dimensions": "Length: 6.5m | Height: 1.4m | Basal Width: 2.0m",
+        "storage_capacity_cum": 450,
+        "condition": "Optimal / Retaining Heavy Sediment",
+        "impact_status": "Trapped 68 tons of coarse debris during monsoon",
+        "description": "Permeable loose stone check structure constructed using local boulders at 1st-order Shivalik torren bed. Prevents debris transport to downstream Sukhna lake.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Loose_boulder_check_dam_Shivalik.jpg/800px-Loose_boulder_check_dam_Shivalik.jpg",
+        "verified": true,
+        "verification_agency": "CSWCRTI Chandigarh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [76.9580, 30.7620]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-OBS-09",
+      "properties": {
+        "id": "GEO-OBS-09",
+        "title": "Traditional Oorani Drinking Water Pond",
+        "category": "Water Body",
+        "watershed_id": "WS-TN-VAI-10",
+        "watershed": "Vaigai-Gundar Drought-Resilient Watershed",
+        "state": "Tamil Nadu",
+        "latitude": 9.8150,
+        "longitude": 77.9420,
+        "elevation_m": 165,
+        "date": "2024-02-19",
+        "surveyor": "S. Meenakshi (Panchayat Resource Person)",
+        "agency": "DHAN Foundation / Tamil Nadu SLNA",
+        "structure_id": "TN-MAD-OOR-009",
+        "dimensions": "Storage Area: 1.8 Ha | Depth: 3.5m",
+        "storage_capacity_cum": 42000,
+        "condition": "Fenced & Clean Water Maintained",
+        "impact_status": "Provides year-round drinking water to 420 rural households",
+        "description": "Restored traditional village pond with silt trap inlet and solar powered sand-filtration unit at outlet.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Oorani_Tamil_Nadu_village_pond.jpg/800px-Oorani_Tamil_Nadu_village_pond.jpg",
+        "verified": true,
+        "verification_agency": "District Collectorate Madurai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [77.9420, 9.8150]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-OBS-10",
+      "properties": {
+        "id": "GEO-OBS-10",
+        "title": "Percolation Tank PT-06 with Recharge Shaft",
+        "category": "Percolation Tank",
+        "watershed_id": "WS-GJ-SAB-09",
+        "watershed": "Sabarmati-Harnav Watershed",
+        "state": "Gujarat",
+        "latitude": 23.8640,
+        "longitude": 73.1820,
+        "elevation_m": 260,
+        "date": "2024-04-10",
+        "surveyor": "B. Patel (WDT Geologist)",
+        "agency": "Gujarat State Watershed Agency (GSWAM)",
+        "structure_id": "GJ-SAB-PT-006",
+        "dimensions": "Bund Length: 110m | Crest Height: 3.8m | Shaft Depth: 18m",
+        "storage_capacity_cum": 85000,
+        "condition": "Functional / Shaft Clear",
+        "impact_status": "Groundwater table rose 4.1m across 1.5 sq km zone",
+        "description": "Percolation tank fitted with 18m gravel-packed injection bore to directly transfer filtered runoff past impervious clay layer into basalt aquifer.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Percolation_tank_Gujarat.jpg/800px-Percolation_tank_Gujarat.jpg",
+        "verified": true,
+        "verification_agency": "GSWAM Gandhinagar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.1820, 23.8640]
+      }
+    }
+  ]
+}

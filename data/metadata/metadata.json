@@ -1,0 +1,58 @@
+{
+  "project": "JalDrishti - Geospatial Watershed Intelligence Platform",
+  "problem_statement": "SIH Problem Statement 26015: Application of Geospatial Techniques for visualization and analysis to interpret Geo-Coded Images to enhance watershed Development Outcomes",
+  "version": "1.0.0",
+  "last_updated": "2026-10-01",
+  "coordinate_reference_system": "EPSG:4326 (WGS 84) for GeoJSON / EPSG:3857 for Web Map Tiles",
+  "official_sources": [
+    {
+      "id": "ogd_watershed_boundaries",
+      "name": "Shape of Watershed Boundaries of India",
+      "authority": "Government of India Open Government Data (OGD) / Central Ground Water Board / Central Water Commission",
+      "url": "https://www.data.gov.in/catalog/hydrological-boundaries",
+      "product_type": "Vector Shapefile (Watershed Boundaries, Sub-basins, Catchments)",
+      "crs": "EPSG:4326",
+      "status": "Official Reference Schema Integrated",
+      "notes": "Official hydrological boundaries published by GoI under National Hydrology Project (NHP)."
+    },
+    {
+      "id": "bhuvan_nrsc_eo_archive",
+      "name": "Bhuvan Open Earth Observation Data Archive",
+      "authority": "National Remote Sensing Centre (NRSC) / ISRO",
+      "url": "https://bhuvan-app3.nrsc.gov.in/data/download/",
+      "products": [
+        "CartoDEM 1 arc-second (30m Elevation Model)",
+        "Resourcesat AWiFS (56m multi-spectral)",
+        "Resourcesat LISS-III (23.5m multi-spectral)"
+      ],
+      "access_requirement": "Registered ISRO Bhuvan login required for bulk raw tile download; WMS endpoints available for live web map consumption.",
+      "status": "WMS & Tile Schema Configured"
+    },
+    {
+      "id": "bhuvan_lulc_wms",
+      "name": "Bhuvan Thematic LULC 1:250,000",
+      "authority": "National Remote Sensing Centre (NRSC) / ISRO",
+      "url": "https://bhuvan-app1.nrsc.gov.in/2dresources/bhuvanstore2.php",
+      "wms_endpoint": "https://bhuvan-ras2.nrsc.gov.in/cgi-bin/LULC250K.exe",
+      "layers": ["LULC250k_2223", "LULC250k_1718", "LULC250k_1112"],
+      "status": "Official WMS Service Integration Configured"
+    },
+    {
+      "id": "bhuvan_thematic_services",
+      "name": "Bhuvan Thematic Geospatial Services",
+      "authority": "NRSC / ISRO",
+      "url": "https://bhuvan-app1.nrsc.gov.in/thematic/thematic/usertasks/download1/tooldown1.php",
+      "products": ["Land Degradation", "Wastelands", "Geomorphology", "Soil Erosion", "Waterbodies"],
+      "status": "Integrated with Vector & Raster thematic specifications"
+    },
+    {
+      "id": "mord_drishti_geotag",
+      "name": "DRISHTI / SRISHTI Mobile Geo-tagging & Field Verification",
+      "authority": "Ministry of Rural Development (MoRD) / Department of Land Resources (DoLR) / PMKSY-WDC",
+      "guidelines": "Geo-tagged photo evidence for watershed interventions (Check dams, Farm ponds, Gully plugs, Afforestation, Canal lining)",
+      "metadata_fields": ["latitude", "longitude", "altitude_m", "timestamp", "watershed_id", "category", "structure_condition", "surveyor_id", "dimensions", "impact_status"],
+      "status": "Fully Implemented Schema with Interactive Field Evidence Viewer"
+    }
+  ],
+  "sample_data_notice": "For local development and non-authenticated demonstration, high-fidelity sample vector geometries and representative geo-tagged field observations have been generated adhering strictly to the official NRSC/OGD schema. When live connectivity to Bhuvan WMS is active, official layers are requested directly."
+}

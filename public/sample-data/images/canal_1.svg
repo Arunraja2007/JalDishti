@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="canalSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#bae6fd"/><stop offset="100%" stop-color="#f0fdf4"/></linearGradient>
+    <linearGradient id="canalWater" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#0284c7"/><stop offset="50%" stop-color="#38bdf8"/><stop offset="100%" stop-color="#0369a1"/></linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#canalSky)"/>
+  <!-- Green Fields on both sides -->
+  <polygon points="0,120 600,120 600,400 0,400" fill="#40916c"/>
+  
+  <!-- Concrete Canal Bed & Embankment -->
+  <polygon points="260,120 340,120 540,400 60,400" fill="#94a3b8"/>
+  <polygon points="275,120 325,120 480,400 120,400" fill="#cbd5e1"/>
+  
+  <!-- Flowing Blue Water in Canal -->
+  <polygon points="280,120 320,120 450,400 150,400" fill="url(#canalWater)"/>
+  
+  <!-- Water ripples and flow lines -->
+  <path d="M 290 160 Q 300 170 310 160 M 270 230 Q 300 245 330 230 M 230 320 Q 300 340 370 320" stroke="#ffffff" stroke-width="2.5" fill="none" opacity="0.6"/>
+  
+  <!-- Coconut Trees / Field Boundary along Canal -->
+  <g fill="#1b4332">
+    <circle cx="45" cy="180" r="24"/><circle cx="530" cy="190" r="28"/>
+    <circle cx="75" cy="270" r="32"/><circle cx="510" cy="290" r="36"/>
+  </g>
+  
+  <!-- Geotag HUD Overlay -->
+  <rect x="20" y="20" width="230" height="64" rx="6" fill="#0f172a" fill-opacity="0.75"/>
+  <text x="32" y="42" fill="#38bdf8" font-family="monospace" font-size="12" font-weight="bold">GEO-OBS: CNL-04 (12.721°N, 77.085°E)</text>
+  <text x="32" y="60" fill="#86efac" font-family="sans-serif" font-size="11">Concrete Lined Feeder Canal • Cauvery</text>
+  <text x="32" y="74" fill="#cbd5e1" font-family="sans-serif" font-size="10">Length: 420m | Discharge: 0.45 m³/s</text>
+</svg>
