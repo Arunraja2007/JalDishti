@@ -402,6 +402,7 @@ export default function GisMap({
           url={basemaps[basemapKey].url}
           attribution={basemaps[basemapKey].attribution}
           maxZoom={basemaps[basemapKey].maxZoom}
+          subdomains={basemaps[basemapKey].subdomains || 'abc'}
         />
 
         {/* Official NRSC Bhuvan WMS Layer (when enabled) */}

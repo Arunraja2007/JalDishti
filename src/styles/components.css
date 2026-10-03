@@ -263,6 +263,16 @@
   flex-direction: column;
 }
 
+/* Full-screen page viewport (no map alongside) */
+.gis-fullscreen-viewport {
+  flex: 1;
+  height: 100%;
+  background: var(--bg-surface);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
 /* Top Dashboard Metric Grid */
 .dashboard-kpi-bar {
   background: var(--white);
